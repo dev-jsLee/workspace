@@ -3,10 +3,11 @@
 # 테이블(행과 열로 이루어진 표 데이터) 형식으로 만들어져있다.
 # 이때, 한 행의 값들은 반점(,)를 구분자로 하여 값이 구분되어 있으며
 # 이때문에 Comma Seperate Values의 준말로 csv라고 부르는 것이다.
-
 # 이러한 csv를 파이썬에서 다루려면
 # 관련 라이브러리를 임포트해야 한다.
 import csv
+# print(__name__)
+# from __init__ import specific_var
 
 def write_csv(file_path=None):
     file_path = file_path or input("파일 드래그\n") or "test.csv"
